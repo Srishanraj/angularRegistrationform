@@ -21,57 +21,9 @@
                     <span *ngIf="user.isDeleting" class="spinner-border spinner-border-sm"></span>
                     <span *ngIf="!user.isDeleting">Delete</span>
                 </button>
-                <button
-                type="button"
-                class="btn btn-danger m-1"
-                data-bs-toggle="modal"
-                data-bs-target="#deleteModal">
-              hello
-              </button>
-    
-              <div
-                class="modal fade"
-                id="deleteModal"
-                tabindex="-1"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
-                        Remove User
-                      </h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      ></button>
-                    </div>
-                    <div class="modal-body">
-                      <div class="container">
-                        <h5 class="edit-label">Are you sure you want to delete?</h5>
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-primary"
-                        data-bs-dismiss="modal"
-                      >
-                        Cancel
-                      </button>
-                      <button
-                        class="btn btn-danger"
-                        data-bs-dismiss="modal"
-                      >
-                        Delete
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+           
+        
+               
 
     
             </td>
@@ -83,5 +35,6 @@
         </tr>
     </tbody>
 </table>
+
 
 </div>

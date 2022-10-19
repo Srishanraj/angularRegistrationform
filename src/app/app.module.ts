@@ -10,7 +10,7 @@ import { JwtInterceptor, ErrorInterceptor } from './_helpers';
 import { AppComponent } from './app.component';
 import { AlertComponent } from './_components';
 import { HomeComponent } from './home';
-import { LayoutModule } from './layout/layout.module';;
+import { LayoutModule } from './layout/layout.module';
 
 @NgModule({
     imports: [
@@ -19,6 +19,8 @@ import { LayoutModule } from './layout/layout.module';;
         HttpClientModule,
         AppRoutingModule,
         LayoutModule
+        
+        
 ,
   ],
     declarations: [
