@@ -28,11 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.less",
-              "node_modules/bootstrap/bootstrap/dist/css/bootstrap.min.css"
-  
+              "src/styles.less"  
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]
+            "scripts": []
           },
           "configurations": {
             "production": {
