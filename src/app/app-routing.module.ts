@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { UserprofileComponent } from './account/userprofile.component';
 
 import { HomeComponent } from './home';
 import { AuthGuard } from './_helpers';
@@ -11,6 +12,8 @@ const routes: Routes = [
     { path: '', component: HomeComponent, canActivate: [AuthGuard] },
     { path: 'users', loadChildren: usersModule, canActivate: [AuthGuard] },
     { path: 'account', loadChildren: accountModule },
+    { path: 'userprofile', component: UserprofileComponent, canActivate: [AuthGuard] },
+
 
     { path: '**', redirectTo: '' }
 ];

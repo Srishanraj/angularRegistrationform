@@ -7,6 +7,7 @@ import { LayoutComponent } from './layout.component';
 import { LoginComponent } from './login.component';
 import { RegisterComponent } from './register.component';
 import { ForgotpasswordComponent } from './forgotpassword.component';
+import { UserprofileComponent } from './userprofile.component';
 
 @NgModule({
     imports: [
@@ -18,7 +19,8 @@ import { ForgotpasswordComponent } from './forgotpassword.component';
         LayoutComponent,
         LoginComponent,
         RegisterComponent,
-        ForgotpasswordComponent
+        ForgotpasswordComponent,
+        UserprofileComponent
     ]
 })
 export class AccountModule { }
