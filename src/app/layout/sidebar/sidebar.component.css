@@ -4,7 +4,6 @@
     display: block;
     padding: 6px 10px;
     transition: 0.5s;
-    height: 150vh;
 }
 .sidebar-nav ul li a:hover {
     background-color: #eeeeee;
@@ -30,4 +29,9 @@
 .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before
 {
     margin-right: 5px;
+}
+
+.sideheight{
+    height: 150vh;
+    
 }
